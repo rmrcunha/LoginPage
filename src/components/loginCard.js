@@ -1,5 +1,5 @@
 import './css/loginCard.css';
-
+import "https://kit.fontawesome.com/66aa7c98b3.js"
 function LoginCard(){
   return (
     <div className="App">
@@ -17,6 +17,21 @@ function LoginCard(){
             <div className="action">
               <button className="action-button">Logar</button>
             </div>
+            <p>Fazer login com:</p>
+            <ul class="sci">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
           </form>
         </div>
       </div>

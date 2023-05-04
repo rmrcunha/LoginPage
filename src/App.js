@@ -5,7 +5,6 @@ import RegistroCard from "./components/ResgisterCard.js";
 
 
 const App = () => {
-  const [showLogin, setShowLogin] = useState('');
   const [showRegistro, setShowRegistro] = useState('');
   const showLoginCard = () => {
     setShowRegistro(false);
